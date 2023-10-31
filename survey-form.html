@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container{
+        width: 600px;
+        height: auto;
+        background: #e6f7ff;
+        margin: auto;
+    }
+    
+    .container >h1{
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    form{
+        padding: 20px 80px;
+    }
+
+    input{
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    input:focus,select:focus{
+        outline: none;
+    }
+
+    input[type=checkbox],input[type=date]{
+        width: auto;
+    }
+    
+    select{
+        width: auto;
+        padding: 6px 10px;
+        margin-top: 2px;
+    }
+
+    button{
+        padding: 8px 25px;
+        cursor: pointer;
+        background: #0087fe;
+        color: white;
+        border: none;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <form action="">
+            <label for="">First Name</label><br>
+            <input type="text"><br><br>
+            <label for="">Last Name</label><br>
+            <input type="text"><br><br>
+            <label for="">Mobile Number</label><br>
+            <input type="text"><br><br>
+            <label for="">Email</label><br>
+            <input type="email"><br><br>
+            <label for="">Address</label><br>
+            <input type="text"><br><br>
+            <label for="">Address 2</label><br>
+            <input type="text"><br><br>
+            <label for="">City</label><br>
+            <input type="text"><br><br>
+            <label for="">Contact Method</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Mobile Number</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Email</label><br><br>
+            <label for="">Date of birth</label><br>
+            <input type="date" name="" id=""><br><br>
+            <label for="">Gender</label><br>
+            <select name="" id="">
+                <option value="">Please Select</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select><br><br>
+            <button>Submit Form</button>
+        </form>
+    </div>
+</body>
+</html>
