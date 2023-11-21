@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: #fff9f2;
+}
+
+nav{
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.container{
+  width: 1140px;
+  margin: auto;
+}
+
+.brand-name{
+  width: 175px;
+  background: url(./image/logo.png);
+  background-repeat: no-repeat;
+  float: left;
+  font-weight: bold;
+  margin-top: 7px;
+  font-family:"Outfit", sans-serif;
+  text-align: right;
+}
+
+span{
+  font-size: 25px;
+}
+
+ul{
+  float: right;
+}
+
+li{
+  display: inline-block;
+  font-size: 20px;
+  padding: 7px 20px ;
+  line-height: 36px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.active{
+  background: linear-gradient(90deg, #f28e27 0% , #f58331 50%, #fd644f 100%);
+  padding: 3px 25px;
+  border-radius: 25px;
+  color: white;
+}
+
+.square-left{
+  width: 50%;
+  clear: both;
+  float: left;
+  margin-top: 150px;
+}
+
+h1{
+  font-size: 46px;
+}
+
+p{
+  margin-top: 30px;
+  width: 70%;
+}
+
+button{
+  background: linear-gradient(90deg, #f28e27 0% , #f58331 50%, #fd644f 100%);
+  padding: 9px 25px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.square-right{
+  width: 50%;
+  float: right;
+  margin-top: 80px;
+  overflow: hidden;
+}
+
+.place-image{
+  width: 80%;
+  height: 450px;
+  background: url(./image/dog.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  float: right;
+}
+
