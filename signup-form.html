@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login / Sign Up Form</title>
+  <link rel="stylesheet" href="/signup-form.css">
+</head>
+<body>
+  <div class="container">
+    <div class="toggle-container">
+      <input type="checkbox" id="toggle" class="hidden">
+      <label for="toggle" class="toggle">
+        <div class="slide"></div>
+         <span class="label">Login</span>
+         <span class="label">Sign Up</span>
+      </label>
+    </div>
+
+    <div class="form-container">
+      <form action="" id="login-form">
+        <label for="">Email</label><br>
+        <input type="email"><br><br>
+        <label for="">Password</label><br>
+        <input type="password"><br><br>
+        <button>Log In</button>
+      </form>
+
+      <form action="" id="signup-form" class="hidden">
+        <label for="">Name</label><br>
+        <input type="text"><br><br>
+        <label for="">Email</label><br>
+        <input type="email"><br><br>
+        <label for="">Set Password</label><br>
+        <input type="password"><br><br>
+        <button>Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./signup-form.js"></script>
+</body>
+</html>
